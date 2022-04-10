@@ -1106,6 +1106,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-param{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250/ var(--tw-bg-opacity));
+}
+.bg-cyan{
+  --tw-bg-opacity: 1;
+  background-color: cyan;
+}
 
 .bg-primary{
   --tw-bg-opacity: 1;
@@ -1693,10 +1701,13 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.shit{
+  margin-left: 00px;
+}
 
 .sticky #navbarToggler span{
   --tw-bg-opacity: 1;
-  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
+  background-color: rgb(19 19 19/ var(--tw-bg-opacity));
 }
 
 .sticky #navbarCollapse li a{
